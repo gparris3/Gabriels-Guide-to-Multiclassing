@@ -1,0 +1,154 @@
+* { box-sizing: border-box; }
+/* Background image */
+body {
+    background-color: #1E1E1E;
+    background-image: url(bgtexture.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Left fonts as default by personal preference-- serif fonts are already used by official material. Colors were chosen to mimic a page in a rulebook */
+}
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px #1E1E1E;
+    padding: 0;
+    /* Don't remove, sets nav bar color */
+    background-color: #f3cc83;
+}
+main {
+    /* Sets and colors background image */
+    background-color: #ffffd4;
+    background-image: url(maintexture.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    overflow: auto;
+}
+/* Header settings */
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1 {
+    background-color: #702b0a;
+    margin-bottom: 0;
+}
+/* Navigation bar settings */
+nav { 
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    float: left;
+    width: 200px;
+    margin-top: 0;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+nav li {
+    border: 2px solid black;
+}
+nav a:link {
+    color: #702b0a;
+}
+nav a:visited {
+    color: #6f442f;
+}
+nav a:hover {
+    color: #c65a28;
+}
+/* Main body css */
+main h2 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h3 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h4 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main p {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main div {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main ul {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+/* Div for last line redirecting reader to nav */
+#formoreinfo {
+    background-color: #d5ac6a;
+    padding: .5em;
+}
+/* Footer settings */
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    border-top: #8C3826;
+}
+.classicon {
+    float: left;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em
+}
+/* Main table sizing */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-spacing: 0;
+}
+/* Sets alternating background color */
+tr:nth-of-type(odd) {
+    background-color: #e9e99bad;
+}
+/* Centers level numbers */
+td:nth-of-type(odd) {
+    text-align: center;
+}
+/* Fixes awkward spacing between level numbers and feature names */
+td:nth-of-type(even) {
+    padding-left: 5em;
+}
+/* Fixes spacing on the feedback form. */
+form {
+    padding-left: 1em;
+    width: 80%;
+}
+input,
+textarea {
+    margin-bottom: .5em;
+}
+/* Fixes spacing on the suggestions box. */
+#suggestLabel {
+    display: flex;
+}
+#suggestBox {
+    margin-top: .5em;
+}
