@@ -23,8 +23,9 @@ main {
     /* Sets and colors background image */
     background-color: #ffffd4;
     background-image: url(maintexture.jpg);
-    background-size: cover;
+    background-size: auto;
     background-blend-mode: color-burn;
+    background-repeat: repeat-y;
     overflow: auto;
 }
 /* Header settings */
@@ -151,4 +152,15 @@ textarea {
 }
 #suggestBox {
     margin-top: .5em;
+}
+/* Styles the class detail/summary widget. */
+summary { 
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    padding-left: 3em;
+    padding-right: 2em;
 }
